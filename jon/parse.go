@@ -61,8 +61,6 @@ func ReplyFor(comment string) (reply string) {
 		}
 	}
 
-	images = append(images, "[.](https://github.com/gastrodon/jon)")
-
 	reply = strings.TrimSpace(strings.Join(images, "\n\n"))
 	return
 }
